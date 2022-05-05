@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="129.46871">
+<testcase classname="Feature to verify text in search page" name="Check the text is same as searched page" time="41.482263">
+<system-out><![CDATA[Given click on search icon in home page.....................................passed
+When user enters london search bar..........................................passed
+And click search............................................................passed
+Then in result page verify the text is present..............................passed
+And navigate back...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to verify text in sport page" name="Check the text is same as sports page" time="30.244118">
+<system-out><![CDATA[Given click on sport section in home page...................................passed
+And Verify that Sport is present in sports page.............................passed
+Then Navigate back to home page from sports page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to verify text in terms on use page" name="Check the text is same as terms on use page" time="57.742329">
+<system-out><![CDATA[Given click on terms on use in footer in home page..........................passed
+And Verify that text is present in terms on use page........................passed
+Then Navigate back to home page from terms on use page......................passed
+]]></system-out>
+</testcase>
+</testsuite>

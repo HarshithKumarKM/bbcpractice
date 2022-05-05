@@ -1,0 +1,323 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 936400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_2_Sportstep.baseclass()"
+            }
+          },
+          {
+            "result": {
+              "duration": 12793316800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_1_Searchstep.baseclass()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1715100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_3_Footerstep.baseclass()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Check the text is same as searched page",
+        "description": "",
+        "id": "feature-to-verify-text-in-search-page;check-the-text-is-same-as-searched-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 937547100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_1_Searchstep.afterclass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12475200700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on search icon in home page",
+            "match": {
+              "location": "Step_1_Searchstep.click_on_search_icon_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2195785400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters london search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "london",
+                  "offset": 12
+                }
+              ],
+              "location": "Step_1_Searchstep.user_enters_search_bar(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4529521300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click search",
+            "match": {
+              "location": "Step_1_Searchstep.click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52232200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "in result page verify the text is present",
+            "match": {
+              "location": "Step_1_Searchstep.in_result_page_verify_the_text_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8496008200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "navigate back",
+            "match": {
+              "location": "Step_1_Searchstep.navigate_back()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Feature to verify text in search page",
+    "description": "",
+    "id": "feature-to-verify-text-in-search-page",
+    "keyword": "Feature",
+    "uri": "Feature_1_Search.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3408800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_2_Sportstep.baseclass()"
+            }
+          },
+          {
+            "result": {
+              "duration": 11247254500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_1_Searchstep.baseclass()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1408000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_3_Footerstep.baseclass()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Check the text is same as sports page",
+        "description": "",
+        "id": "feature-to-verify-text-in-sport-page;check-the-text-is-same-as-sports-page",
+        "after": [
+          {
+            "result": {
+              "duration": 964781800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_1_Searchstep.afterclass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7194937500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on sport section in home page",
+            "match": {
+              "location": "Step_2_Sportstep.click_on_sport_section_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2116877500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify that Sport is present in sports page",
+            "match": {
+              "location": "Step_2_Sportstep.verify_that_Sport_is_present_in_sports_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8715449400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate back to home page from sports page",
+            "match": {
+              "location": "Step_2_Sportstep.navigate_back_to_home_page_from_sports_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Feature to verify text in sport page",
+    "description": "",
+    "id": "feature-to-verify-text-in-sport-page",
+    "keyword": "Feature",
+    "uri": "Feature_2_Sports.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2215700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_2_Sportstep.baseclass()"
+            }
+          },
+          {
+            "result": {
+              "duration": 15628214800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_1_Searchstep.baseclass()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2002300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_3_Footerstep.baseclass()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Check the text is same as terms on use page",
+        "description": "",
+        "id": "feature-to-verify-text-in-terms-on-use-page;check-the-text-is-same-as-terms-on-use-page",
+        "after": [
+          {
+            "result": {
+              "duration": 985014400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_1_Searchstep.afterclass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8231138700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on terms on use in footer in home page",
+            "match": {
+              "location": "Step_3_Footerstep.click_on_terms_on_use_in_footer_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2081212700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify that text is present in terms on use page",
+            "match": {
+              "location": "Step_3_Footerstep.verify_that_text_is_present_in_terms_on_use_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30812530000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate back to home page from terms on use page",
+            "match": {
+              "location": "Step_3_Footerstep.navigate_back_to_home_page_from_terms_on_use_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Feature to verify text in terms on use page",
+    "description": "",
+    "id": "feature-to-verify-text-in-terms-on-use-page",
+    "keyword": "Feature",
+    "uri": "Feature_3_Footer.feature"
+  }
+]

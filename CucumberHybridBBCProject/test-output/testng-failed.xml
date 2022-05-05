@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.mindtree.utilities.ExtentReport"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.mindtree.testcases.TestCase2">
+        <methods>
+          <include name="afterclass"/>
+          <include name="baseclass"/>
+        </methods>
+      </class> <!-- com.mindtree.testcases.TestCase2 -->
+      <class name="com.mindtree.testcases.TestCase3">
+        <methods>
+          <include name="afterclass"/>
+          <include name="baseclass"/>
+        </methods>
+      </class> <!-- com.mindtree.testcases.TestCase3 -->
+      <class name="com.mindtree.testcases.TestCase1">
+        <methods>
+          <include name="search"/>
+          <include name="baseclass"/>
+        </methods>
+      </class> <!-- com.mindtree.testcases.TestCase1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
